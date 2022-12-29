@@ -1,0 +1,95 @@
+body {
+    display: block;
+    margin: auto;
+    line-height: 1;
+    padding: auto;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: top;
+    padding-top: 10px;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";   
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.news{
+    text-align: justify;
+}
+
+.need-to-know {
+    background-color: rgb(5, 77, 3);
+    color: white;
+    line-height: 1.5;
+    margin-top: -20px;
+}
+
+.need-to-know h3 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.need-to-know h3 a {
+    color: skyblue;
+    font-weight:100;
+    font-size: small;
+    text-decoration: none;
+}
+
+.img-logo {
+    height: 120px;
+    margin-left: 20px;
+}
+
+div ul {
+    display: flex;
+    list-style: none;
+    margin-left: 0;
+}
+
+div ul li {
+    padding-top: 70px;
+}
+
+div ul a {
+    text-decoration: none;
+    padding: 0.5rem 0.35rem 0.5rem 0.5rem;
+    margin-left: 0;
+}
+
+div .navbar {
+    margin-left: 0;
+    width: 100%;
+}
+
+li {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    padding: 5px;
+}
+section {
+    padding: 5px;
+    max-width: 1300px;
+    margin: 5px;
+}

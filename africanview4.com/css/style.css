@@ -1,0 +1,137 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(14);
+    grid-template-rows: repeat(8, 80px);
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+    grid-gap: 10px 20px;
+    justify-items: center;
+    align-items: stretch;
+    place-items: stretch;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 98.5vw;
+    height: 350vh;
+    background-color: #f6f6fa;
+    color: rgb(8, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+    padding: 7px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size: 14px;
+}
+
+div ul li {
+    padding-top: 70px;
+}
+
+.need-to-know {
+    grid-column: 1 / span 14;
+    grid-row: 1 / span 1;
+    text-align: center;
+    background-color:  rgb(5, 77, 3);
+    color: white;
+    line-height: 1.5;
+    margin-top: -24px;
+    margin-left: -24px;
+    margin-right: -16px;
+}
+
+.need-to-know h3 {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.need-to-know h3 a {
+    color: skyblue;
+    font-weight:100;
+    font-size: small;
+    text-decoration: none;
+}
+
+/*SECTION 1*/
+
+.brand-logo {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 2;
+    justify-content: space-around;
+}
+
+.img-logo {
+    height: 120px;
+    margin-left: 20px;
+}
+
+div .navbar {
+    grid-column: 2 / span 13;
+    grid-row: 2 / span 2;
+}
+
+/*SECTION 2*/
+
+.first-right-sidebar .headlines{
+    grid-column: 1 / span 4;
+    grid-row: 4 / span 5;
+}
+
+.main-news {
+    grid-column: 5 / span 5;
+    grid-row: 4 / 5;
+}
+
+.first-left-sidebar .first-advert {
+    grid-column: 10 / span 5;
+    grid-row: 4 / span 5;
+}
+
+/*SECTION 3*/
+
+.event-herald {
+    grid-column: 1 / span 3;
+    grid-row: 9 / span 3;
+}
+
+ {
+    grid-column: 4 / span 7;
+    grid-row: 9 / span 6;
+}
+
+.second-right-sidebar .second-advert {
+    grid-column: 11 / span 4;
+    grid-row: 9 / span 4;
+}
+
+/*SECTION 4*/
+
+.hotnews2 {
+    grid-column: 1 / span 5;
+    grid-row: 15 / span 5;
+}
+.hottest-sports-news {
+    grid-column: 6 / span 4;
+    grid-row: 15 / span 5;
+}
+
+.hottest-entertainment-news {
+    grid-column: 10 / span 5;
+    grid-row: 15 / span 5;
+}
+
+.footer {
+    grid-column: 1 / span 14;
+    grid-row: 20 / span 2;
+}
+
+.copyright {
+    grid-column: 1 / span 14;
+    grid-row: 21 / span 1;
+}
